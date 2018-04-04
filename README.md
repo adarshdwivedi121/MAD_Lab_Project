@@ -1,4 +1,5 @@
-Temblor
+# Temblor
+
 This project aims towards creating an Earthquake and Tsunami Alert
 Application. There are more than 70 occurences of Seismic Activity everyday
 around the World. This means that there are at least 3 Earthquakes occuring
@@ -19,4 +20,3 @@ Location, Magnitude, Location on Map, seismic lines, etc
 5. Notification Service to notify user of any Tsunami occuring in their
 vicinity
 6. Real time tracking of Multiple locations.
-
