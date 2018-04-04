@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Temblor</string>
+    <string name="Quake_Name">Quake</string>
+    <string name="no_earthquake">No Earthquakes Found</string>
+    <string name="network_error">Check Network Connection</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>

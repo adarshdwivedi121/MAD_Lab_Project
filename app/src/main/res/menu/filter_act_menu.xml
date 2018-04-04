@@ -1,0 +1,14 @@
+<?xml version="1.0"?>
+<menu
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        app:showAsAction="always"
+        android:icon="@drawable/ic_clear_white_24dp"
+        android:id="@+id/clear" />
+    <item
+        app:showAsAction="always"
+        android:icon="@drawable/ic_done_white_24dp"
+        android:id="@+id/done"
+        />
+</menu>

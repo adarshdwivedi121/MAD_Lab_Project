@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:id="@+id/loadingPanel"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:visibility="gone">
+
+        <ProgressBar
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:indeterminate="true" />
+    </RelativeLayout>
+
+    <ListView
+        android:id="@+id/activity_main"
+        android:layout_height="match_parent"
+        android:layout_width="match_parent"
+        tools:context="com.example.lucifer.earthquake.MainActivity"
+        android:visibility="gone">
+    </ListView>
+
+
+    <ImageButton
+        android:id="@+id/error_image"
+        android:layout_width="64dp"
+        android:layout_height="64dp"
+        android:layout_centerHorizontal="true"
+        android:layout_above="@+id/error_text"
+        android:background="@drawable/ic_warning_black_24dp"
+        android:backgroundTint="@color/black_overlay"
+        android:visibility="gone" />
+    <TextView
+        android:id="@+id/error_text"
+        android:text="check network connection"
+        android:textAllCaps="true"
+        android:textSize="16dp"
+        android:textStyle="bold"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:visibility="gone"/>
+</RelativeLayout>

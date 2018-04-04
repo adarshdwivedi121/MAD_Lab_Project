@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "955504401026",
+    "firebase_url": "https://temblor-52259.firebaseio.com",
+    "project_id": "temblor-52259",
+    "storage_bucket": "temblor-52259.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:955504401026:android:92891ad12d890691",
+        "android_client_info": {
+          "package_name": "com.example.lucifer.earthquake"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "955504401026-em3f4fp5ailrs918ike5rpnj9okr7q9l.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD0nvqFtvoNEyBRwowEad83hzSavWwwDmc"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

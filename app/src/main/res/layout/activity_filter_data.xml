@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    tools:context="com.example.lucifer.earthquake.FilterData">
+
+    <LinearLayout
+        android:padding="8dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_weight="1"
+            android:text="Start Date"
+            android:gravity="center"
+            android:textStyle="bold"
+            android:textAllCaps="true"
+            android:textSize="16dp"
+            android:layout_width="0dp"
+            android:layout_height="match_parent" />
+        <EditText
+            android:id="@+id/start_dt_data"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:textSize="16dp"
+            android:gravity="center"
+            android:inputType="date"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:padding="8dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_weight="1"
+            android:text="End Date"
+            android:gravity="center"
+            android:textStyle="bold"
+            android:textAllCaps="true"
+            android:textSize="16dp"
+            android:layout_width="0dp"
+            android:layout_height="match_parent" />
+        <EditText
+            android:id="@+id/end_dt_data"
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:textSize="16dp"
+            android:gravity="center"
+            android:inputType="date" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:padding="8dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_weight="1"
+            android:text="Max Magnitude"
+            android:gravity="center"
+            android:textStyle="bold"
+            android:textAllCaps="true"
+            android:textSize="16dp"
+            android:layout_width="0dp"
+            android:layout_height="match_parent" />
+        <EditText
+            android:id="@+id/max_mag_data"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:textSize="16dp"
+            android:gravity="center"
+            android:inputType="number"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:padding="8dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_weight="1"
+            android:text="Min Magnitude"
+            android:gravity="center"
+            android:textStyle="bold"
+            android:textAllCaps="true"
+            android:textSize="16dp"
+            android:layout_width="0dp"
+            android:layout_height="match_parent" />
+        <EditText
+            android:id="@+id/min_mag_data"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:textSize="16dp"
+            android:gravity="center"
+            android:inputType="number"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:text="Added Locations"
+            android:textSize="20sp"
+            android:layout_margin="8dp"
+            android:layout_width="0dp"
+            android:layout_weight="8"
+            android:layout_height="wrap_content" />
+        <ImageButton
+            android:id="@+id/add_location"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:layout_gravity="center"
+            android:background="@android:color/transparent"
+            android:foreground="?android:selectableItemBackground"
+            android:src="@android:drawable/ic_input_add"/>
+
+    </LinearLayout>
+    
+    <ListView
+        android:id="@+id/location_list"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+</LinearLayout>

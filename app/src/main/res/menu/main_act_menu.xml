@@ -1,0 +1,28 @@
+<?xml version="1.0"?>
+<menu
+xmlns:app="http://schemas.android.com/apk/res-auto"
+xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        app:showAsAction="always"
+        android:icon="@drawable/ic_update_white_24dp"
+        android:id="@+id/refresh" />
+    <item
+        app:showAsAction="always"
+        android:icon="@drawable/ic_filter_list_white_24dp"
+        android:id="@+id/filter"/>
+
+    <item android:title="Show Added Locations"
+        android:id="@+id/show_added"/>
+
+    <item
+        android:title="Dummy Earthquake"
+        android:id="@+id/dummy_earthquake"/>
+
+    <item
+        android:title="Dummy Tsunami"
+        android:id="@+id/dummy_tsunami"/>
+
+    <item
+        android:title="Toggle Service"
+        android:id="@+id/toggle_service"/>
+</menu>

@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/list_item"
+    android:layout_width="match_parent"
+    android:layout_height="72dp"
+    android:paddingLeft="8dp"
+    android:paddingRight="8dp"
+    android:paddingTop="16dp"
+    android:paddingBottom="16dp"
+    tools:context="com.example.lucifer.earthquake.MainActivity">
+
+    <LinearLayout
+        android:id="@+id/lay_magnitude"
+        android:layout_width="48dp"
+        android:layout_height="48dp"
+        android:gravity="center">
+        <TextView
+            android:textColor="@android:color/white"
+            android:id="@+id/magnitude"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:background="@drawable/circle"
+            android:gravity="center"
+            android:textAppearance="@style/Base.TextAppearance.AppCompat.Body2"
+            android:text="7.0"
+            />
+    </LinearLayout>
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="72dp"
+        android:layout_marginLeft="8dp"
+        android:layout_toRightOf="@id/lay_magnitude"
+        android:layout_toLeftOf="@+id/date_time">
+        <TextView
+            android:id="@+id/distance"
+            android:textAppearance="@style/Base.TextAppearance.AppCompat.Small.Inverse"
+            android:text="27km ssw of"
+            android:textColor="@android:color/darker_gray"
+            android:textAllCaps="true"
+            android:layout_width="match_parent"
+            android:layout_height="16dp"
+            />
+        <TextView
+            android:id="@+id/location"
+            android:textAppearance="@style/Base.TextAppearance.AppCompat.Subhead"
+            android:textColor="@android:color/black"
+            android:text="Sary-Tash, Kyrgyzstan"
+            android:layout_below="@id/distance"
+            android:layout_width="match_parent"
+            android:layout_height="32dp"
+            />
+    </RelativeLayout>
+    <LinearLayout
+        android:id="@+id/date_time"
+        android:layout_width="88dp"
+        android:layout_height="48dp"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:orientation="vertical">
+        <TextView
+            android:id="@+id/date"
+            android:textColor="@android:color/darker_gray"
+            android:textAppearance="@style/Base.TextAppearance.AppCompat.Small.Inverse"
+            android:text="14 Jul,2016"
+            android:gravity="bottom"
+            android:textAlignment="viewEnd"
+            android:layout_height="24dp"
+            android:layout_width="match_parent" />
+        <TextView
+            android:id="@+id/time"
+            android:textColor="@android:color/darker_gray"
+            android:textAppearance="@style/Base.TextAppearance.AppCompat.Small.Inverse"
+            android:text="12:45 PM"
+            android:gravity="top"
+            android:textAlignment="viewEnd"
+            android:layout_height="24dp"
+            android:layout_width="match_parent" />
+    </LinearLayout>
+
+</RelativeLayout>
